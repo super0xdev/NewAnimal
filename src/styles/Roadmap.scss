@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inder:wght@300;400;500;600;700&display=swap');
+.roadmap-back{
+  padding-top: 72px;
+  padding-bottom: 72px;
+  background: rgba(0, 0, 0, 0.22);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  .roadmap{
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    .contents{
+      gap: 84px;
+      display: flex;
+      flex-direction: row;
+      .left{
+        .title{
+          color: #C9EEFF;
+          text-align: center;
+          text-shadow: 18px 5px 3px rgba(0, 0, 0, 0.25);
+          font-family: Inder;
+          font-size: 100px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 60px; /* 60% */
+          -webkit-text-stroke: 2px #62CDFF;
+        }
+        .subtitle{
+          margin-top: 23px;
+          color: #FFF;
+          text-align: center;
+          font-family: Oswald;
+          font-size: 36px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 42px; /* 116.667% */
+        }
+        .image{
+          width: 100%;
+          height: auto;
+        }
+      }
+      .right{
+        flex-direction: column;
+        gap:49px;
+        .item{
+          .title{
+            margin-bottom: 11px;
+            color: #FFF;
+            font-family: Inter;
+            font-size: 33px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            .bold{
+              color: #FFF;
+              font-family: Inter;
+              font-size: 35px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: 40px; /* 114.286% */
+            }
+          }
+          .text{
+            margin-left: 30px;
+            margin-bottom: 5px;
+            color: #FFF;
+            font-family: Oswald;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 32px; /* 133.333% */
+          }
+        }
+      }
+    }
+    .button{
+      margin-left: auto;
+      margin-right: auto;
+      display: flex;
+      width: 233px;
+      height: 78px;
+      padding: auto;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 21px;
+      background: #62CDFF;
+      .text{
+        color: #FFF;
+        font-family: Inder;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 18px; /* 100% */
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+.footer-back{
+  padding-top: 84px;
+  padding-bottom: 84px;
+  display: flex;
+  justify-content: center;
+  .footer{
+    display: flex;
+    max-width: 1152px;
+    height: auto;
+    padding: 53px 7px 60.01px 7px;  
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 7px solid rgba(35, 34, 34, 0.80);
+    opacity: 0.9999;
+    background: rgba(34, 34, 34, 0.90);
+    .logo{
+      display: flex;
+      flex-direction: row;
+      img{
+        width: 120px;
+        height: 120px;
+      }
+      .text{
+        margin-left: 26px;
+        color: #62CDFF;
+        font-family: Irish Grover;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    }
+    .content{
+      margin-top: 49px;
+      color: #FFF;
+      text-align: center;
+      font-family: Inter;
+      font-size: 33px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 48px; /* 145.455% */
+    }
+    .links{
+      margin-top: 62px;
+      gap: 100px;
+      display: flex;
+      flex-direction: row;
+      .link{
+        width: 90px;
+        height: 90px;
+      }
+    }
+  }
+}
